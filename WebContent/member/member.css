@@ -1,0 +1,104 @@
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+
+    font-family: 'NanumSquareLight';
+    font-family: 'NanumSquare';
+    font-family: 'NanumSquareBold';
+    font-family: 'NanumSquareExtraBold';
+    font-family: 'NanumSquareAcb';
+    font-family: 'NanumSquareAceb';
+    font-family: 'NanumSquareAcl';
+    font-family: 'NanumSquareAcr';
+}
+body{
+	background-color: #eee;
+}
+#memWrap{
+    width: 1130px;
+	margin: 0 auto;
+	height:900px;
+	background-color: white;
+}
+html,body,div,span{
+	margin: 0;padding: 0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+a:link{
+	color: #555;	
+}
+a:hover{
+	color: #555;
+}
+.display_none{
+    display: none;
+}
+
+
+#regFrm{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+h2{
+    padding: 10px;
+    border-bottom: 1px solid #555;
+}
+table{
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+tr,td{
+    padding: 10px;
+    /* border: 1px solid; */
+}
+input[type=text], input[type=password], input[type=date], select {
+
+    padding: 6px 15px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[name=name]{
+    margin-right: 50px;
+  }
+.submit{
+    padding: 50px;
+    text-align: center;
+}
+input[type=button]{
+    background-color:#555555;
+	color: white;
+  	border: 2px solid #555555;
+  	padding: 3px 10px;
+	width: 100px;
+	border-radius: 4px;
+  	cursor: pointer;
+}
+.submit input{
+    background-color:#555555;
+	color: white;
+  	border: 2px solid #555555;
+  	padding: 3px 10px;
+	width: 70px;
+	border-radius: 4px;
+  	cursor: pointer;
+}
+.submit input:hover, input[type=button]:hover{
+    background-color: white;
+  	color: black;
+}
+.radio{
+    font-size: 13px;
+}
+
+ #idcheck{
+    font-size: 15px;
+ }

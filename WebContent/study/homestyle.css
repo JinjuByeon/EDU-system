@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+
+    font-family: 'NanumSquareLight';
+    font-family: 'NanumSquare';
+    font-family: 'NanumSquareBold';
+    font-family: 'NanumSquareExtraBold';
+    font-family: 'NanumSquareAcb';
+    font-family: 'NanumSquareAceb';
+    font-family: 'NanumSquareAcl';
+    font-family: 'NanumSquareAcr';
+}
+
+#wrap{
+    width: 1130px;
+	margin: 0 auto;
+    background-color: #fff;
+    height: 250px;
+}
+html,body,div,span{
+	margin: 0;padding: 0;
+}
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #555;
+}
+a:link{
+	color: #555;	
+}
+a:hover{
+	color: #555;
+}
+.display_none{
+    display: none;
+}
+
+
+/* 헤더부분 */
+#header_top{
+    /* background-color: aquamarine; */
+    height: 100px;
+    
+}
+#logo{
+    /* background-color: #1565C0; */
+    float: left;
+    position: relative; left: 470px;top: 20px;
+}
+#logo a{
+    display: block;
+    width: 200px;height: 100px;
+    text-indent: -9999px;
+    background-image: url("../img/logo.PNG");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#header_top .login{
+    text-align: right;
+    padding-top: 60px;
+}
+#header_top .login a:hover{
+    font-weight: bold;
+    color: #333;
+}
+#header_top .login li{
+    display: inline;
+}
+#header_top .login li a{
+    margin-right: 30px;
+}
+nav .gnb{
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+nav .gnb>li{
+    float: left;
+    position: relative; left: 255px;
+    margin-right: 40px;
+    text-align: center;
+    padding: 0;
+}
+nav .gnb>li:hover{
+    color: #333;
+    border-bottom: 3px solid #90CAF9;
+}
+nav .gnb>li a{
+    width: 180px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+    color: #555;
+}
+
+nav .gnb .submenu_list{
+    /* background-color:#607EAA; */
+    /* width: 1130px;margin: 0 auto; */
+    text-align: left;
+    position: absolute;
+    top: 32px;
+}
+nav .gnb .submenu_list a{
+    text-align: center;
+    font-size: 16px;
+    padding: 3px;
+}
+nav .gnb .submenu_list a:hover{
+    background-color: #64B5F6;
+    color: white;
+}
+nav .gnb .depth1{
+    display: none;
+    box-sizing: border-box;
+}
+nav .gnb .depth2{
+    display: none;
+    box-sizing: border-box;
+}
+nav .gnb .depth3{
+    display: none;
+    box-sizing: border-box;
+}
+
+
+
